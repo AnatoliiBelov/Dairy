@@ -12,8 +12,6 @@ public abstract class Task implements RepeatabilityOfTask {
     private final Type type;
     private static int id;
     private final LocalDateTime dateTime;
-
-
     private String description;
 
     public Task(String title, Type type, LocalDateTime dateTime, String description) throws IncorrectArgumentException {
